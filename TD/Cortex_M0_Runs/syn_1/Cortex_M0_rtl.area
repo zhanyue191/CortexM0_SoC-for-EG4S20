@@ -1,0 +1,55 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        41
+  #input                   15
+  #output                  17
+  #inout                    9
+
+Gate Statistics
+#Basic gates            20682
+  #and                   9597
+  #nand                     0
+  #or                    2005
+  #nor                      0
+  #xor                     72
+  #xnor                     0
+  #buf                      0
+  #not                   6477
+  #bufif1                   2
+  #MX21                   468
+  #FADD                     0
+  #DFF                   2061
+  #LATCH                    0
+#MACRO_ADD                 11
+#MACRO_EQ                  33
+#MACRO_MULT                 1
+#MACRO_MUX                859
+#MACRO_OTHERS               8
+
+Report Hierarchy Area:
++-------------------------------------------------------------------+
+|Instance             |Module               |gates  |seq    |macros |
++-------------------------------------------------------------------+
+|top                  |CortexM0_SoC         |18621  |2061   |53     |
+|  Buzzer_Interface   |AHBlite_Buzzermusic  |96     |251    |11     |
+|    beat_cnt         |beat_cnt             |0      |28     |2      |
+|    beat_decoder     |beat_decoder         |21     |0      |6      |
+|    tune_decoder     |tune_decoder         |35     |0      |0      |
+|    tune_pwm         |tune_pwm             |4      |21     |3      |
+|  CortexM0           |cortexm0ds_logic     |18251  |1297   |14     |
+|  GPIO_Interface     |AHBlite_GPIO         |9      |138    |2      |
+|    GPIO_LED         |PAD_DIG_IO           |1      |0      |0      |
+|  Interconncet       |AHBlite_Interconnect |12     |5      |5      |
+|    Decoder          |AHBlite_Decoder      |0      |0      |5      |
+|    SlaveMUX         |AHBlite_SlaveMUX     |12     |5      |0      |
+|  RAMCODE_Interface  |AHBlite_Block_RAM    |10     |19     |8      |
+|    RAM              |Block_RAM            |0      |0      |4      |
+|  RAMDATA_Interface  |AHBlite_Block_RAM    |2      |19     |4      |
+|    RAM              |Block_RAM            |0      |0      |4      |
+|  keyboard_Interface |AHBlite_keyboard     |237    |330    |9      |
+|    u_key_filter     |key_filter           |49     |71     |3      |
+|    u_keyboard_scan  |keyboard_scan        |7      |53     |6      |
+|    u_onehot2bin1ry  |onehot2bin1ry        |157    |4      |0      |
++-------------------------------------------------------------------+

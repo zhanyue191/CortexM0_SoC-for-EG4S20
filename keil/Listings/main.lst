@@ -1,0 +1,55 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 PRESERVE8
+    2 00000000                 THUMB
+    3 00000000                 AREA             |.text|,CODE,READONLY
+    4 00000000                 EXPORT           main
+    5 00000000         
+    6 00000000         main    FUNCTION
+    7 00000000 4902            LDR              R1, =0x40020000 ; S0_REG
+    8 00000002 4A03            LDR              R2, =0x40020004 ; S1_REG 
+    9 00000004         
+   10 00000004 4803            LDR              R0, =0x01   ;
+   11 00000006 6008            STR              R0, [R1]    ; 
+   12 00000008         
+   13 00000008 4803            LDR              R0, =0x02   ; 
+   14 0000000A 6010            STR              R0, [R2]    ; 
+   15 0000000C         
+   16 0000000C                 ENDFUNC
+   17 0000000C                 END
+              40020000 
+              40020004 
+              00000001 
+              00000002 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
+ork --depend=.\main.d -o.\main.o -I"D:\keil arm\Keil\V2M-MPS2_CMx_BSP\1.8.1\Dev
+ice\CMSDK_CM0\Include" --predefine="__UVISION_VERSION SETA 538" --predefine="CM
+SDK_CM0 SETA 1" --list=.\listings\main.lst main.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 3 in file main.s
+   Uses
+      None
+Comment: .text unused
+main 00000000
+
+Symbol: main
+   Definitions
+      At line 6 in file main.s
+   Uses
+      At line 4 in file main.s
+Comment: main used once
+2 symbols
+336 symbols in table

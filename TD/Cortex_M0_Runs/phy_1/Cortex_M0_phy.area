@@ -1,0 +1,116 @@
+standard
+***Report Model: CortexM0_SoC Device: EG4S20BG256***
+
+IO Statistics
+#IO                        41
+  #input                   15
+  #output                  17
+  #inout                    9
+
+Utilization Statistics
+#lut                     6195   out of  19600   31.61%
+#reg                     2058   out of  19600   10.50%
+#le                      6255
+  #lut only              4197   out of   6255   67.10%
+  #reg only                60   out of   6255    0.96%
+  #lut&reg               1998   out of   6255   31.94%
+#dsp                        3   out of     29   10.34%
+#bram                      64   out of     64  100.00%
+  #bram9k                  64
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#pad                       41   out of    188   21.81%
+  #ireg                     5
+  #oreg                     6
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       2   out of     16   12.50%
+
+Clock Resource Statistics
+Index     ClockNet                                       Type               DriverType         Driver                                                      Fanout
+#1        clk_dup_4                                      GCLK               io                 clk_syn_5.di                                                1637
+#2        SWCLK_dup_1                                    GCLK               io                 SWCLK_syn_2.di                                              82
+#3        keyboard_Interface/u_keyboard_scan/scan_clk    GCLK               mslice             keyboard_Interface/u_keyboard_scan/scan_clk_reg_syn_9.q1    19
+
+
+Detailed IO Report
+
+     Name       Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     RSTn         INPUT         E3        LVTTL33           N/A          PULLUP      NONE    
+    SW[7]         INPUT        A14        LVCMOS33          N/A          PULLUP      NONE    
+    SW[6]         INPUT        A13        LVCMOS33          N/A          PULLUP      NONE    
+    SW[5]         INPUT        B12        LVCMOS33          N/A          PULLUP      NONE    
+    SW[4]         INPUT        A12        LVCMOS33          N/A          PULLUP      NONE    
+    SW[3]         INPUT        A11        LVCMOS33          N/A          PULLUP      NONE    
+    SW[2]         INPUT        B10        LVCMOS33          N/A          PULLUP      NONE    
+    SW[1]         INPUT        A10        LVCMOS33          N/A          PULLUP      NONE    
+    SW[0]         INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
+    SWCLK         INPUT         K3        LVTTL33           N/A          PULLUP      NONE    
+     clk          INPUT         R7        LVTTL33           N/A          PULLUP      NONE    
+    col[3]        INPUT        F10        LVTTL33           N/A          PULLUP      IREG    
+    col[2]        INPUT        C11        LVTTL33           N/A          PULLUP      IREG    
+    col[1]        INPUT        D11        LVTTL33           N/A          PULLUP      IREG    
+    col[0]        INPUT        E11        LVTTL33           N/A          PULLUP      IREG    
+     beep        OUTPUT        H11        LVCMOS33           8            NONE       OREG    
+    row[3]       OUTPUT         D9        LVTTL33            8            NONE       OREG    
+    row[2]       OUTPUT         F9        LVTTL33            8            NONE       OREG    
+    row[1]       OUTPUT        C10        LVTTL33            8            NONE       OREG    
+    row[0]       OUTPUT        E10        LVTTL33            8            NONE       OREG    
+  seg_led[7]     OUTPUT         C8        LVCMOS33           8            NONE       NONE    
+  seg_led[6]     OUTPUT         A8        LVCMOS33           8            NONE       NONE    
+  seg_led[5]     OUTPUT         B5        LVCMOS33           8            NONE       NONE    
+  seg_led[4]     OUTPUT         A7        LVCMOS33           8            NONE       NONE    
+  seg_led[3]     OUTPUT         E8        LVCMOS33           8            NONE       NONE    
+  seg_led[2]     OUTPUT         B8        LVCMOS33           8            NONE       NONE    
+  seg_led[1]     OUTPUT         A6        LVCMOS33           8            NONE       NONE    
+  seg_led[0]     OUTPUT         A4        LVCMOS33           8            NONE       NONE    
+  seg_sel[3]     OUTPUT         C9        LVCMOS33           8            NONE       NONE    
+  seg_sel[2]     OUTPUT         B6        LVCMOS33           8            NONE       NONE    
+  seg_sel[1]     OUTPUT         A5        LVCMOS33           8            NONE       NONE    
+  seg_sel[0]     OUTPUT         A3        LVCMOS33           8            NONE       NONE    
+    LED[7]        INOUT        F16        LVCMOS33           8           PULLUP      NONE    
+    LED[6]        INOUT        E16        LVCMOS33           8           PULLUP      NONE    
+    LED[5]        INOUT        E13        LVCMOS33           8           PULLUP      NONE    
+    LED[4]        INOUT        C16        LVCMOS33           8           PULLUP      NONE    
+    LED[3]        INOUT        C15        LVCMOS33           8           PULLUP      NONE    
+    LED[2]        INOUT        B16        LVCMOS33           8           PULLUP      NONE    
+    LED[1]        INOUT        B15        LVCMOS33           8           PULLUP      NONE    
+    LED[0]        INOUT        B14        LVCMOS33           8           PULLUP      OREG    
+    SWDIO         INOUT         K6        LVTTL33            8           PULLUP      IREG    
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------+
+|Instance             |Module               |le     |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------+
+|top                  |CortexM0_SoC         |6255   |6091    |104     |2069    |80      |3       |
+|  Buzzer_Interface   |AHBlite_Buzzermusic  |356    |329     |19      |187     |0       |0       |
+|    beat_cnt         |beat_cnt             |40     |32      |8       |26      |0       |0       |
+|    tune_pwm         |tune_pwm             |124    |113     |11      |24      |0       |0       |
+|  CortexM0           |cortexm0ds_logic     |5260   |5189    |65      |1451    |0       |3       |
+|  GPIO_Interface     |AHBlite_GPIO         |145    |145     |0       |94      |0       |0       |
+|  Interconncet       |AHBlite_Interconnect |6      |6       |0       |2       |0       |0       |
+|    SlaveMUX         |AHBlite_SlaveMUX     |2      |2       |0       |2       |0       |0       |
+|  RAMCODE_Interface  |AHBlite_Block_RAM    |29     |28      |0       |17      |16      |0       |
+|    RAM              |Block_RAM            |4      |4       |0       |1       |16      |0       |
+|  RAMDATA_Interface  |AHBlite_Block_RAM    |49     |49      |0       |21      |64      |0       |
+|    RAM              |Block_RAM            |2      |2       |0       |0       |64      |0       |
+|  keyboard_Interface |AHBlite_keyboard     |396    |331     |20      |285     |0       |0       |
+|    u_key_filter     |key_filter           |90     |74      |11      |60      |0       |0       |
+|    u_keyboard_scan  |keyboard_scan        |67     |47      |9       |46      |0       |0       |
+|    u_onehot2bin1ry  |onehot2bin1ry        |21     |21      |0       |5       |0       |0       |
++------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       3658  
+    #2          2       1859  
+    #3          3       510   
+    #4          4       520   
+    #5        5-10      598   
+    #6        11-50     430   
+    #7       51-100      47   
+    #8       101-500     5    
+    #9        >500       1    
+  Average     3.78            

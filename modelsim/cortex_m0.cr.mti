@@ -1,0 +1,120 @@
+D:/Project/m0_class/rtl/Block_RAM.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/Block_RAM.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module Block_RAM
+
+Top level modules:
+	Block_RAM
+
+} {} {}} D:/Project/m0_class/rtl/AHBlite_Block_RAM.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/AHBlite_Block_RAM.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_Block_RAM
+
+Top level modules:
+	AHBlite_Block_RAM
+
+} {} {}} D:/Project/m0_class/tb/CortexM0_SoC_vlg_tst.v {1 {vlog -work work -stats=none {D:\Project\m0_class\tb\CortexM0_SoC_vlg_tst.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module CortexM0_SoC_vlg_tst
+
+Top level modules:
+	CortexM0_SoC_vlg_tst
+
+} {} {}} D:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_GPIO
+
+Top level modules:
+	AHBlite_GPIO
+
+} {} {}} D:/Project/m0_class/rtl/SEG/AHBlite_SEG.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/SEG/AHBlite_SEG.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_SEG
+
+Top level modules:
+	AHBlite_SEG
+
+} {} {}} D:/Project/m0_class/rtl/CortexM0_SoC.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/CortexM0_SoC.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module CortexM0_SoC
+
+Top level modules:
+	CortexM0_SoC
+
+} {} {}} D:/Project/m0_class/rtl/GPIO/IO.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/GPIO/IO.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module PAD_DIG_IO
+
+Top level modules:
+	PAD_DIG_IO
+
+} {} {}} D:/Project/m0_class/rtl/keyboard/key_filter.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/keyboard/key_filter.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module key_filter
+
+Top level modules:
+	key_filter
+
+} {} {}} D:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_keyboard
+
+Top level modules:
+	AHBlite_keyboard
+
+} {} {}} D:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module onehot2bin1ry
+
+Top level modules:
+	onehot2bin1ry
+
+} {} {}} D:/Project/m0_class/rtl/AHBlite_Interconnect.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/AHBlite_Interconnect.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_Interconnect
+
+Top level modules:
+	AHBlite_Interconnect
+
+} {} {}} D:/Project/m0_class/rtl/AHBlite_SlaveMUX.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/AHBlite_SlaveMUX.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_SlaveMUX
+
+Top level modules:
+	AHBlite_SlaveMUX
+
+} {} {}} D:/Project/m0_class/rtl/SEG/seg_sel_decoder.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/SEG/seg_sel_decoder.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module seg_sel_decoder
+
+Top level modules:
+	seg_sel_decoder
+
+} {} {}} D:/Project/m0_class/rtl/keyboard/keyboard_scan.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/keyboard/keyboard_scan.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module keyboard_scan
+
+Top level modules:
+	keyboard_scan
+
+} {} {}} D:/Project/m0_class/rtl/cortexm0ds_logic.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/cortexm0ds_logic.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module cortexm0ds_logic
+
+Top level modules:
+	cortexm0ds_logic
+
+} {} {}} D:/Project/m0_class/rtl/AHBlite_Decoder.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/AHBlite_Decoder.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module AHBlite_Decoder
+
+Top level modules:
+	AHBlite_Decoder
+
+} {} {}} D:/Project/m0_class/rtl/SEG/seg_led_decoder.v {1 {vlog -work work -stats=none D:/Project/m0_class/rtl/SEG/seg_led_decoder.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module seg_led_decoder
+
+Top level modules:
+	seg_led_decoder
+
+} {} {}}

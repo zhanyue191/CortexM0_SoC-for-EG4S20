@@ -1,0 +1,361 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/27659/Downloads/acc/sim/modelsim
+vAHBlite_Block_RAM
+Z0 !s110 1741515692
+!i10b 1
+!s100 oPkc55G>Y^863jb>8fo];3
+IHg<<A;HNMTMNeQ9392_^j2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/Project/m0_class/modelsim
+w1740653798
+8D:/Project/m0_class/rtl/AHBlite_Block_RAM.v
+FD:/Project/m0_class/rtl/AHBlite_Block_RAM.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1741515692.832000
+!s107 D:/Project/m0_class/rtl/AHBlite_Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/AHBlite_Block_RAM.v|
+!i113 1
+Z4 o-work work
+n@a@h@blite_@block_@r@a@m
+vAHBlite_Decoder
+R0
+!i10b 1
+!s100 NPi?iXDniRU7g8P8JfT8b1
+I:c52Gz_L3S@1Q=c[PI3G[1
+R1
+R2
+w1740645219
+8D:/Project/m0_class/rtl/AHBlite_Decoder.v
+FD:/Project/m0_class/rtl/AHBlite_Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515692.895000
+!s107 D:/Project/m0_class/rtl/AHBlite_Decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/AHBlite_Decoder.v|
+!i113 1
+R4
+n@a@h@blite_@decoder
+vAHBlite_GPIO
+Z5 !s110 1741515693
+!i10b 1
+!s100 [jVZ2PSgTPNmLcnkLO=Ua2
+IVEg6gKEN9=<mTTOZkb@dO1
+R1
+R2
+w1741515624
+8D:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v
+FD:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515693.237000
+!s107 D:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/GPIO/AHBlite_GPIO.v|
+!i113 1
+R4
+n@a@h@blite_@g@p@i@o
+vAHBlite_Interconnect
+R0
+!i10b 1
+!s100 Nhgb_WZZk=Z1QeVPIBR`_0
+IKTeHQd4T6cZC<Yk`NJRQ?2
+R1
+R2
+w1740653685
+8D:/Project/m0_class/rtl/AHBlite_Interconnect.v
+FD:/Project/m0_class/rtl/AHBlite_Interconnect.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515692.342000
+!s107 D:/Project/m0_class/rtl/AHBlite_Interconnect.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/AHBlite_Interconnect.v|
+!i113 1
+R4
+n@a@h@blite_@interconnect
+vAHBlite_keyboard
+R5
+!i10b 1
+!s100 a;G2fnoRFMJ3AOnK^ImTe3
+IXDziKk8P`@L`b?;QY[7dT0
+R1
+R2
+w1741513879
+8D:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v
+FD:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515693.200000
+!s107 D:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/keyboard/AHBlite_keyboard.v|
+!i113 1
+R4
+n@a@h@blite_keyboard
+vAHBlite_SEG
+R5
+!i10b 1
+!s100 @EFEN0mdcB67=MiIG3imU0
+IYPnf6mXX;IDKDAb3bFokD0
+R1
+R2
+w1741514265
+8D:/Project/m0_class/rtl/SEG/AHBlite_SEG.v
+FD:/Project/m0_class/rtl/SEG/AHBlite_SEG.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515693.044000
+!s107 D:/Project/m0_class/rtl/SEG/AHBlite_SEG.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/SEG/AHBlite_SEG.v|
+!i113 1
+R4
+n@a@h@blite_@s@e@g
+vAHBlite_SlaveMUX
+R0
+!i10b 1
+!s100 24[YVmC<lVCl69iR;UKXk2
+II_k?E<GBziH:H3m5QMVi50
+R1
+R2
+w1740653433
+8D:/Project/m0_class/rtl/AHBlite_SlaveMUX.v
+FD:/Project/m0_class/rtl/AHBlite_SlaveMUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515692.380000
+!s107 D:/Project/m0_class/rtl/AHBlite_SlaveMUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/AHBlite_SlaveMUX.v|
+!i113 1
+R4
+n@a@h@blite_@slave@m@u@x
+vBlock_RAM
+R0
+!i10b 1
+!s100 jGQMi5dkY0hFO]AKziN4T3
+IP_DBAmDB5RD13UP4hHEhD3
+R1
+R2
+w1741515039
+8D:/Project/m0_class/rtl/Block_RAM.v
+FD:/Project/m0_class/rtl/Block_RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515692.419000
+!s107 D:/Project/m0_class/rtl/Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/Block_RAM.v|
+!i113 1
+R4
+n@block_@r@a@m
+vCortexM0_SoC
+R0
+!i10b 1
+!s100 nS1z94nUW^J1A:FNQIT3<0
+ISmM:hTcP;PZ5FM<ebndAL1
+R1
+R2
+w1741515485
+8D:/Project/m0_class/rtl/CortexM0_SoC.v
+FD:/Project/m0_class/rtl/CortexM0_SoC.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515692.458000
+!s107 D:/Project/m0_class/rtl/CortexM0_SoC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/CortexM0_SoC.v|
+!i113 1
+R4
+n@cortex@m0_@so@c
+vCortexM0_SoC_vlg_tst
+R0
+!i10b 1
+!s100 =T8W`bMz0Q@z^T_fTTAc[0
+I7cO`jS_I;OML8kYmbJ1V<2
+R1
+R2
+w1741515686
+8D:\Project\m0_class\tb\CortexM0_SoC_vlg_tst.v
+FD:\Project\m0_class\tb\CortexM0_SoC_vlg_tst.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515692.933000
+!s107 D:\Project\m0_class\tb\CortexM0_SoC_vlg_tst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Project\m0_class\tb\CortexM0_SoC_vlg_tst.v|
+!i113 1
+R4
+n@cortex@m0_@so@c_vlg_tst
+vcortexm0ds_logic
+R0
+!i10b 1
+!s100 b93<P@U:oidV:RF?XC>5T1
+IWDbhYCiaR>KWM?]kfinV_3
+R1
+R2
+w1715171308
+8D:/Project/m0_class/rtl/cortexm0ds_logic.v
+FD:/Project/m0_class/rtl/cortexm0ds_logic.v
+L0 27
+R3
+r1
+!s85 0
+31
+!s108 1741515692.503000
+!s107 D:/Project/m0_class/rtl/cortexm0ds_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/cortexm0ds_logic.v|
+!i113 1
+R4
+vkey_filter
+R5
+!i10b 1
+!s100 1GOIfjTO=ag`0WYzoF`a@0
+Ii=2^U_M_U`;oihBb:Zk^B2
+R1
+R2
+w1740650125
+8D:/Project/m0_class/rtl/keyboard/key_filter.v
+FD:/Project/m0_class/rtl/keyboard/key_filter.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515693.084000
+!s107 D:/Project/m0_class/rtl/keyboard/key_filter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/keyboard/key_filter.v|
+!i113 1
+R4
+vkeyboard_scan
+R5
+!i10b 1
+!s100 gB;DFPh7V1V<IEiC;QnAA3
+IgG`TYAGgE8bdV2CBfD3JH2
+R1
+R2
+w1740650106
+8D:/Project/m0_class/rtl/keyboard/keyboard_scan.v
+FD:/Project/m0_class/rtl/keyboard/keyboard_scan.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515693.121000
+!s107 D:/Project/m0_class/rtl/keyboard/keyboard_scan.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/keyboard/keyboard_scan.v|
+!i113 1
+R4
+vonehot2bin1ry
+R5
+!i10b 1
+!s100 6>:SH_DK92@@idOkzIC_P0
+IJf@be3XMMcHb?HJ:9;RCk1
+R1
+R2
+w1740652396
+8D:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v
+FD:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515693.157000
+!s107 D:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/keyboard/onehot2bin1ry.v|
+!i113 1
+R4
+vPAD_DIG_IO
+R5
+!i10b 1
+!s100 4iknmeo4f?KL:<@oNfY8S1
+ImA`nJEmD[mJ1_0?Dh`??^3
+R1
+R2
+w1741495207
+8D:/Project/m0_class/rtl/GPIO/IO.v
+FD:/Project/m0_class/rtl/GPIO/IO.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741515693.276000
+!s107 D:/Project/m0_class/rtl/GPIO/IO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/GPIO/IO.v|
+!i113 1
+R4
+n@p@a@d_@d@i@g_@i@o
+vseg_led_decoder
+R0
+!i10b 1
+!s100 `1YRT89]_EK0Q[V1]>__B3
+IUbbcV[TFnk1707U[k7NX62
+R1
+R2
+w1740651118
+8D:/Project/m0_class/rtl/SEG/seg_led_decoder.v
+FD:/Project/m0_class/rtl/SEG/seg_led_decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515692.968000
+!s107 D:/Project/m0_class/rtl/SEG/seg_led_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/SEG/seg_led_decoder.v|
+!i113 1
+R4
+vseg_sel_decoder
+R5
+!i10b 1
+!s100 aH87RQUOXJej4aU0WhM?b0
+I4MYccl6=Nk<;2A486VnE02
+R1
+R2
+w1741435523
+8D:/Project/m0_class/rtl/SEG/seg_sel_decoder.v
+FD:/Project/m0_class/rtl/SEG/seg_sel_decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1741515693.004000
+!s107 D:/Project/m0_class/rtl/SEG/seg_sel_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Project/m0_class/rtl/SEG/seg_sel_decoder.v|
+!i113 1
+R4

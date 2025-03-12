@@ -1,0 +1,55 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\code.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\code.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Sun Mar  9 20:04:36 2025
+<BR><P>
+<H3>Maximum Stack Usage =          0 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[2]">KEY_Handler</a> from startup_cmsdk_cm0.o(.text) referenced from startup_cmsdk_cm0.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_cmsdk_cm0.o(.text) referenced from startup_cmsdk_cm0.o(RESET)
+ <LI><a href="#[1]">SysTick_Handler</a> from startup_cmsdk_cm0.o(.text) referenced from startup_cmsdk_cm0.o(RESET)
+ <LI><a href="#[3]">main_loop</a> from startup_cmsdk_cm0.o(.text) referenced from startup_cmsdk_cm0.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzz_test
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_test
+<LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_loop
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cmsdk_cm0.o(RESET)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[3]"></a>main_loop</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cmsdk_cm0.o(.text)
+</UL>
+<P><STRONG><a name="[1]"></a>SysTick_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cmsdk_cm0.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>KEY_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cmsdk_cm0.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>gpio_test</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+
+<P><STRONG><a name="[5]"></a>buzz_test</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, startup_cmsdk_cm0.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
